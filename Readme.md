@@ -1,6 +1,6 @@
 # 8x8 WS2812B LED 点阵动画演示
 
-![](C:\Users\QROBOT\Desktop\新建文件夹\esp32_ws2812b_8x8\ws2812.JPG)
+![](ws2812.JPG)
 
 基于 Arduino 的 8×8 WS2812B（NeoPixel）LED 点阵动画程序，自动循环播放 6 种炫彩动画效果，无需任何按键或传感器控制。
 
