@@ -1,5 +1,7 @@
 # 8x8 WS2812B LED 点阵动画演示
 
+![](C:\Users\QROBOT\Desktop\新建文件夹\esp32_ws2812b_8x8\ws2812.JPG)
+
 基于 Arduino 的 8×8 WS2812B（NeoPixel）LED 点阵动画程序，自动循环播放 6 种炫彩动画效果，无需任何按键或传感器控制。
 
 ## 硬件需求
@@ -92,3 +94,7 @@ main.ino
 - **新增动画**：在 `AnimationMode` 枚举中添加名称，编写 `showXxx()` 函数，并在 `loop()` 的 `switch` 中注册
 - **修改切换时间**：调整 `MODE_DURATION_MS`
 - **固定单种动画**：删除或注释 `loop()` 中的 `nextMode()` 触发条件即可
+
+### 视频效果
+
+【使用Schematik开发一个ESP32控制WSB2812动画】 https://www.bilibili.com/video/BV1huem63E9g/?share_source=copy_web&vd_source=7bf10437d889d07e12643b64c1742abf
